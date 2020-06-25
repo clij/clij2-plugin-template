@@ -3,8 +3,8 @@
 // Use the method place holders READ_IMAGE to read from an input image.
 // Use the method place holders WRITE_IMAGE to write to an ouput image.
 // Mark your images as input images using the type place holders IMAGE_src_TYPE where 'src' stands for your variable name.
-// To read the image size for within an OpenCL method, use the method place holders GET_IMAGE_IN_WIDTH,
-// GET_IMAGE_IN_HEIGHT and GET_IMAGE_IN_DEPTH.
+// To read the image size for within an OpenCL method, use the method place holders GET_IMAGE_WIDTH,
+// GET_IMAGE_HEIGHT and GET_IMAGE_DEPTH.
 // You find more details on these convenience place holders online: https://github.com/clEsperanto/clij-opencl-kernels
 //
 __constant sampler_t sampler = CLK_NORMALIZED_COORDS_FALSE | CLK_ADDRESS_CLAMP_TO_EDGE | CLK_FILTER_NEAREST;
