@@ -11,7 +11,7 @@ Furthermore, you find example OpenCL code in ClearCLs dialect in [template.cl](s
 In order to deploy your plugin to your Fiji installation, enter the correct path of your Fiji to the pom file:
 
 ```xml
-<imagej.app.directory>C:/programs/fiji-win64/Fiji.app/</imagej.app.directory>
+<scijava.app.directory>C:/programs/fiji-win64/Fiji.app/</scijava.app.directory>
 ```
 
 Afterwards, run
